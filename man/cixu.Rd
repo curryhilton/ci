@@ -18,7 +18,7 @@ A confidence interval for the population mean
 Confidence interval for the population mean when standard deviation is UNKNOWN
 }
 \examples{
-cixu(attenu$accel, 95)
-cixu(attenu$accel, 99)
+cixu(Orange$age, 95)
+cixu(Orange$age, 99)
 }
 

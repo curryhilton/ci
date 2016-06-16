@@ -4,8 +4,8 @@
 #' @param c A value for the confidence level in whole number form...no decimals
 #' @return A confidence interval for the population mean
 #' @examples
-#' cixu(attenu$accel, 95)
-#' cixu(attenu$accel, 99)
+#' cixu(Orange$age, 95)
+#' cixu(Orange$age, 99)
 #' @export
 #' @import stats methods datasets
 

@@ -18,7 +18,7 @@ A confidence interval for the population proportion
 Confidence interval for the population proportion when the population proportion is UNKNOWN
 }
 \examples{
-cipu(dataset, 95)
-cipu(dataset, 99)
+cipu(attenu$accel, 95)
+cipu(attenu$accel, 99)
 }
 

@@ -4,8 +4,8 @@
 #' @param c A value for the confidence level in whole number form...no decimals
 #' @return A confidence interval for the population proportion
 #' @examples
-#' cipu(dataset, 95)
-#' cipu(dataset, 99)
+#' cipu(attenu$accel, 95)
+#' cipu(attenu$accel, 99)
 #' @export
 #' @import stats methods datasets
 
