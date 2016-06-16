@@ -1,0 +1,15 @@
+Package: ci
+Type: Package
+Title: Interval estimation for population parameters
+Version: 0.1
+Depends:
+    stats, methods
+Date: 2016-06-15
+Authors@R: person("Curry", "Hilton", email = "curry.hilton@gmail.com", role = c("aut", "cre"))
+Description: Provides interval estimation for population means and proportions
+License: MIT
+LazyData: TRUE
+RoxygenNote: 5.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr

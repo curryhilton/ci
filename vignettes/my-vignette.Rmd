@@ -1,0 +1,21 @@
+---
+title: "ci"
+author: "Curry W. Hilton"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{ci}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+*ci* was designed to provide users with a simple way to construct confidence and tolerance intervals for population means and proportions.  *ci* contains the following 4 functions:
+
+- cixk: confidence interval for the population mean where the standard deviation of the population is *known*
+- cixu: confidence interval for the population mean where the standard deviation of the population is *unknown*
+- tipk: tolerance interval for the population proportion where the population proportion is *known*
+- cipu: confidence interval for the population proportion where the population proportion is *unknown*
+
+Each function requires certain arguments in order to output the applicable interval estimate.  Please refer to help("function-name") or ?function-name for more information regarding the function inputs and outputs.
+
+
