@@ -4,10 +4,10 @@
 #' @param c A value for the confidence level in whole number form...no decimals
 #' @return A confidence interval for the population mean
 #' @examples
-#' cixu(dataset, 95)
-#' cixu(dataset, 99)
+#' cixu(attenu$accel, 95)
+#' cixu(attenu$accel, 99)
 #' @export
-#' @import stats methods
+#' @import stats methods datasets
 
 cixu <- function(x, c) {
   xbar <- mean(x)

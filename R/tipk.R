@@ -5,10 +5,10 @@
 #' @param c A value for the tolerance level in whole number form...no decimals
 #' @return A tolerance interval for the population mean
 #' @examples
-#' tipk(dataset, 0.5, 95)
-#' tipk(dataset, 0.75, 99)
+#' tipk(attenu$accel, 0.15, 95)
+#' tipk(attenu$accel, 0.15, 99)
 #' @export
-#' @import stats methods
+#' @import stats methods datasets
 
 tipk <- function(x, p, c) {
   n <- length(x)

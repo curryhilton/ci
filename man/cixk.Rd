@@ -20,7 +20,7 @@ A confidence interval for the population mean
 Confidence interval for the population mean when standard deviation is KNOWN
 }
 \examples{
-cixk(dataset, 1.5, 95)
-cixk(dataset, 7.5, 99)
+cixk(Orange$age, 920, 95)
+cixk(Orange$age, 920, 99)
 }
 

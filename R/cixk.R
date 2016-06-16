@@ -5,10 +5,10 @@
 #' @param c A value for the confidence level in whole number form...no decimals
 #' @return A confidence interval for the population mean
 #' @examples
-#' cixk(dataset, 1.5, 95)
-#' cixk(dataset, 7.5, 99)
+#' cixk(Orange$age, 920, 95)
+#' cixk(Orange$age, 920, 99)
 #' @export
-#' @import stats methods
+#' @import stats methods datasets
 
 cixk <- function(x, sigma, c) {
 xbar <- mean(x)

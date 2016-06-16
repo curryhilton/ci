@@ -7,7 +7,7 @@
 #' cipu(dataset, 95)
 #' cipu(dataset, 99)
 #' @export
-#' @import stats methods
+#' @import stats methods datasets
 
 cipu <- function(x, c) {
   pbar <- mean(x)
